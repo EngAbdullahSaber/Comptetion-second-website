@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--for Keywords of website it's useful for SEO and when publish on domain it's help user to search fast about website    -->
+    <meta name="keywords" content=" first ,simple ,website">
+    <!--for describtion of website it's useful for SEO and when publish on domain 
+    it's help user to search fast about website and show under the name of website in goole browser in result page -->
+    <meta name="description" content=" Star Website HTML and CSS Designed by Abdullah Saber">
+    <!--for author of website it's useful for SEO and when publish on domain 
+    it's help user to search fast about website and show under the name of website in goole browser in result page -->
+    <meta name="author" content="Abdullah Saber">
+    <!--for compitability in IE    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--for Responsive in different screens dimension     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap Library css   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--for Font Awsome Library    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--for normlize the website   -->
+    <link rel="stylesheet" href="css/normlize.css">
+    <!--for Css Style of Website    -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--for Favicon of Website    -->
+    <link rel="  icon" href="img/favicon1.png">
+    <title> Cart</title>
+</head>
+<body >
+    <!-- Start for info-->
+    <nav class="d-flex justify-content-around navbar-info py-4">
+        <div class="p-2 bd-highlight">
+        <form class="d-flex search-form">
+            <input class="form-control me-2 rounded-pill  border-0" type="search" placeholder="Search" aria-label="Search">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </form>
+        </div>
+        <div class="p-2 bd-highlight">
+        <button class="btn text-uppercase fs-5" type="submit">Abdullah Saber</button>
+        </div>
+        <div class="p-2 bd-highlight nav-icons">
+        <i class="fa-solid fa-user px-1"></i>
+        <i class="fa-regular fa-heart px-1"></i>
+        <i class="fa-solid fa-cart-shopping fa-lg px-1"></i>
+        <span class="text-center">2</span>
+        </div>
+    </nav>
+    <!-- End Navbar for info-->
+    <!-- Start Navbar Section-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase ">
+              <li class="nav-item dropdown mx-4">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                <li class="nav-item dropdown mx-4">
+                  <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown"  aria-expanded="false">
+                    About
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="shop.html">Shope</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#">New arrivals</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="contact.html">Contact </a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar Section-->
+    <!-- Start about-wrapper Section-->
+    <section class="about-wrapper">
+        <div class="container">
+            <p class="fw-bolder py-3"> 
+                <span>Home   &#160;</span> / &#160; Cart 
+            </p>
+        </div>
+    </section>
+    <!-- End about-wrapper Section-->
+    <!-- Start Product Details Section-->
+    <section class="product-cart py-5">
+        <div class="container">
+            <div class="row align-items-center ">
+                <table class=" text-center">
+                    <thead>
+                      <tr>
+                        <th class="py-4 img border-0" scope="col">Image</th>
+                        <th class="py-4 prod" scope="col">Product</th>
+                        <th class="py-4 pri" scope="col">Price</th>
+                        <th class="py-4 quali" scope="col">Quality</th>
+                        <th class="py-4 tot" scope="col">Total</th>
+                        <th class="py-4 del" scope="col">Remove</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="p-4" scope="row">
+                            <img src="img/cloth_1.jpg" alt="" srcset="">
+                        </th>
+                        <td class="py-4">
+                            <p class="fw-bold">Top Up T-shirt</p>
+                        </td>
+                        <td class="py-4">
+                            <p class="fw-bold total">$49</p>
+                        </td>
+                        <td class="py-4">
+                            <button type="submit" class="btn-control btn  mb-3">+</button>
+                            <input type="" class="amount form-control" value="1" name="" id="">
+                            <button type="submit" class="btn-control btn  mb-3">-</button>
+                        </td>
+                        <td class="py-4">
+                            <p class="fw-bold total">$49</p>
+                        </td>
+                        <td class="py-4">
+                            <button type="submit" class="btn  mb-3">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="p-4" scope="row">
+                            <img src="img/cloth_2.jpg" alt="" srcset="">
+                        </th>
+                        <td class="py-4">
+                            <p class="fw-bold">Polo T-shirt</p>
+                        </td>
+                        <td class="py-4">
+                            <p class="fw-bold total">$49</p>
+                        </td>
+                        <td class="py-4">
+                            <button type="submit" class="btn-control btn  mb-3">+</button>
+                            <input type="" class="amount form-control" value="1" name="" id="">
+                            <button type="submit" class="btn-control btn  mb-3">-</button>
+                        </td>
+                        <td class="py-4">
+                            <p class="fw-bold total">$49</p>
+                        </td>
+                        <td class="py-4">
+                            <button type="submit" class="btn  mb-3">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </section>
+    <!-- End Product Details Section-->
+    <!-- Start Coupon Section-->
+    <section class="coupon py-5">
+        <div class="container py-5">
+        <div class="row ">
+            <div class="col-7">
+                <button type="submit" class="btn btn-primary text-uppercase px-5 mb-5 me-2 update">Update Cart</button>
+                <button type="submit" class="btn btn-primary text-uppercase px-5 mb-5 continue">Continue Shopping</button>
+                <h4 class="fw-bold py-4" >Coupon</h4>
+                <p>Enter Your Coupon Code if you have one</p>
+                <input type="text" readonly class="form-control  me-2 coupon-code" id="Coupon" placeholder="Coupon Code">
+                <button type="submit" class="btn btn-primary mb-3  text-uppercase ">Apply Coupon</button>
+
+            </div>
+            <div class="col-5 text-center pt-5 checkout">
+                <h4 class="fw-bold py-3  text-uppercase text-end">Cart Total</h4>
+                <div class="d-flex checkout-wrapper py-3">
+                    <div>
+                        <p class="fw-bold">Subtotal</p>
+                        <p class="fw-bold">Total</p>
+                    </div>
+                    <div>
+                        <p class="fw-bold">$230</p>
+                        <p class="fw-bold">$230</p>
+                    </div>
+                </div>
+                <a href="checkout.html">
+                    <button type="submit" class="btn btn-primary text-uppercase my-3 checkout-button px-5 "> Proceed to checkout</button>
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End Coupon Section-->
+    <!-- Start Footer-->
+    <footer class="pt-5">
+        <div class="container">
+        <div class="row mt-3">
+            <div class="col-6">
+            <h3 class="fw-bold mb-4">Navigation</h3>
+            <div class="row">
+                <div class="col-3">
+                <ul class="list-unstyled mb-0">
+                    <li class="py-2">
+                    <a href="#!" >Sell online</a>
+                    </li>
+                    <li class="py-2">
+                    <a href="#!" >Features</a>
+                    </li>
+                    <li class="py-2">
+                    <a href="#!" >Shpping Cart</a>
+                    </li>
+                    <li class="py-2">
+                    <a href="#!" >Store Bulider</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-6">
+                <ul class="list-unstyled mb-0">
+                    <li class="py-2">
+                    <a href="#!" >Web Commerce</a>
+                    </li>
+                    <li class="py-2">
+                    <a href="#!">DropShipping</a>
+                    </li>
+                    <li class="py-2">
+                    <a href="#!" ">Website Development</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-3">
+                <ul class="list-unstyled mb-0">
+                    <li class="py-2">
+                    <a href="#!" >Point of Sale</a>
+                    </li>
+                    <li class="py-2">
+                    <a href="#!" >Hardware</a>
+                    </li>
+                    <li class="py-2">
+                    <a href="#!">Software</a>
+                    </li>
+
+                </ul>
+                </div>
+            </div>
+            </div>
+            <div class="col-3">
+            <h3 class="fw-bold mb-4">Promo</h3>
+            <div class="card mx-2" >
+                <img src="img/hero_1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title-head fs-6">Finding Your Prefect Shoes</h5>
+                <p class="card-text-body">Promo frommay 15 -25 ,2019 </p>
+                </div>
+            </div>
+            </div>
+            <div class="col-3">
+            <h3 class="fw-bold mb-4">Contact Info</h3>
+            <p><i class="fa-sharp fa-solid fa-location-dot me-3"></i> Egypt, Aswan</p>
+            <p><i class="fas fa-phone me-3"></i> +2 011 234 567 88</p>
+            <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@gmail.com
+            </p>
+            <h4 class="fw-bold mb-4">Subscribe</h4>
+            <form class="row ">
+                <div class="col-8">
+                <label for="staticEmail2" class="visually-hidden">Email</label>
+                <input type="text" readonly class="form-control subscribe" id="staticEmail2" value="email">
+                </div>
+                <div class="col-4">
+                <button type="submit" class="btn  mb-3">Subscribe</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+    <div class="text-center p-4 copyright">
+        <p>
+        Copyright © 2021  All rights reserved | the template is made with       
+        <i class="fa-solid fa-heart px-1"></i>
+        by Abdullah Saber
+
+        </p>
+        
+    </div>
+    </footer>
+    <!-- End Footer-->
+    <!-- bootstrap Library js   -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- I designed this website using html and css and one or two line in jquery for spinner and nice scroll  
+to make the website  look good i don't make it responsive 
+i asked  support engineer about it they tell me that it not reqired i can make it
+but if it not reqiured why i  will make it i 
+i used bootstrap i don't know if it allowed or not but the instuctor abd Elrahman
+mention it but he tell that he will explain it after i used bootstrap in navbar and flex  and some styled class instead of css
+i concerned with SEO i using lighthouse tool that help me to improve SEO of website 
+at all thanks  i hope i will win with competition -->
